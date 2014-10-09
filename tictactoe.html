@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<!-- JQuery Min -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>	
+
+	<!-- My CSS sheet -->
+	<link rel="stylesheet" href="tictactoe.css">
+
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="col-md-2">
+			<div class="row">
+				<p id="turn" class="p">x's turn</p>
+				<p id="xwins" class="p">x: </p>
+				<p id="owins" class="p">o: </p>
+				<button id="newgame" type="button" class="btn btn-default pull-left">New game!</button>
+			</div>
+		</div>
+
+		<div class="col-md-10">
+			<div class="row">
+				<div id="1" class="col-md-4">
+					&nbsp;
+				</div>
+				<div id="2" class="col-md-4" style="border-left:1px solid gray; border-right:1px solid gray">
+					&nbsp;
+				</div>
+				<div id="3" class="col-md-4">
+					&nbsp;
+				</div>
+			</div>
+			<div class="row" style="border-top:1px solid gray; border-bottom:1px solid gray">
+				<div id="4" class="col-md-4">
+					&nbsp;
+				</div>
+				<div id="5" class="col-md-4" style="border-left:1px solid gray; border-right:1px solid gray">
+					&nbsp;
+				</div>
+				<div id="6" class="col-md-4">
+					&nbsp;
+				</div>
+			</div>
+			<div class="row">
+				<div id="7" class="col-md-4">
+					&nbsp;
+				</div>
+				<div id="8" class="col-md-4" style="border-left:1px solid gray; border-right:1px solid gray">
+					&nbsp;
+				</div>
+				<div id="9" class="col-md-4">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- My JS file -->
+	<script type="text/javascript" src="tictactoe.js"></script>
+
+</body>
+</html>
